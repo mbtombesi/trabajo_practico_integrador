@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+
+nav{
+    display: flex;
+    z-index: 1;
+}
+
+.navbar {
+    color:white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2{
+    display: flex;
+    position: absolute;
+    left: 170px;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+
+
+.colorenlace1{
+    color: white !important;
+}
+
+.colorenlace2 {
+    color:rgb(167, 167, 167);
+}
+
+.colorenlace3{
+    color:rgb(167, 167, 167);
+}
+
+.colorenlace4{
+    color:rgb(167, 167, 167);
+}
+
+.colorenlace5{
+    color: rgb(1, 179, 1);
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-brand{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*NAVBAR*/
+/*CARD1*/
+
+.card-text1{
+    font-size: 18px;
+    width: 600px;
+}
+
+.card-title1{
+    font-size:40px; 
+    top: 10px;
+}
+
+.card-img{
+    position: relative;
+}
+
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 120px;
+    position:absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#Section1{
+    bottom:130px;
+}
+
+
+
+
+.card2 img{
+    height:100px;
+}
+
+/*SECTION2*/
+
+.fs-6 {
+    position: relative;
+    padding: 0;
+    margin:0;
+}
+
+
+
+h3{
+    margin: 10px;
+    padding: 0px;
+}
+
+.card-oradores{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+
+#oradores{
+    width: 300px;
+}
+
+.card-text2{
+    width: 250px;
+    font-size: 12px;
+}
+
+#button2{
+    padding:0px;
+    font-size: 12px;
+    font-family:;
+
+}
+
+
+.card-body3{
+    width: 100vh;
+}
+
+#cardhonolulu{
+    padding-right:15px;
+    padding-top: 5px;
+}
+.card-text3{
+    font-size: 13px;
+}
+
+.card-title3{
+    margin-top:12px; 
+}
+
+.card-body3{
+    padding: 14px;
+}
+
+.form-control{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#exampleFormControlTextarea1{
+    font-size: 18px;
+}
+
+.grid-container4{
+    display: flex;
+    background-color: #424449;
+    color: white;
+}
+
+.grid-container5{
+    display:flex;
+    justify-content: center;
+}
+
+.conviertete{
+    width: 700px;
+}
+
+.btn2{
+    color:white;
+    background-color: rgb(150, 201, 62);
+    padding: 6px;
+}
+
+.grid-container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(29, 67, 88);
+    background: linear-gradient(90deg, rgba(53,58,64,1) 0%, rgba(49,75,91,1) 15%, rgba(41,103,136,1) 71%, rgba(55,113,144,1) 100%);
+    margin-top: 20px;
+}
+
+.colorenlace6{
+    color:white;
+    width: 100px;
+    margin-inline: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerr{
+    width: 1000px;
+}
+
+#navbarNavAltMarkup1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+

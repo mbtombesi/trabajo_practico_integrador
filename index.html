@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conf Bs As</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/TRABAJO PRACTICO INTEGRADOR/Proyecto/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #424449;">
+    <!--para cambiar el color de fondo de la barra de navegacion, desde html le puse el background-->
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><img src="/TRABAJO PRACTICO INTEGRADOR/img/codoacodo.png" alt="caclogo"
+          height="60" id="caclogo"></a>
+      <h2>Conf Bs As</h2>
+
+      <main>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active colorenlace1" aria-current="page" href="#laconferencia">La conferencia</a>
+            <a class="nav-link colorenlace2" href="#losoradores">Los oradores</a>
+            <a class="nav-link colorenlace3" href="#ellugarylafecha">El lugar y la fecha</a>
+            <a class="nav-link colorenlace4" href="#convierteteenorador">Conviértete en orador</a>
+            <a class="nav-link colorenlace5" href="#">Comprar tickets</a>
+          </div>
+        </div>
+    </div>
+  </nav>
+
+  <section style="height: 629px;">
+    <!--desde "inspeccionar" en el navegador, me di cuenta que el tamaño del conteiner estaba mal y por eso habia mucho margen. quise cambiar el tamaño desde css y no pude-->
+
+
+    <div class="card text-bg-dark border-0 rounded-0" id="Section1" height="629" id="laconferencia">
+      <img src="/TRABAJO PRACTICO INTEGRADOR/img/ba1.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <div>
+          <!--puse el h1 y el p en otro div, y se pusieron uno encima del otro automaticamente-->
+          <h1 class="card-title1 text-end">Conf Bs As</h1>
+          <p class="card-text1 text-end">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
+            comunidad el
+            conocimiento y la experiencia de los expertos que están creando el futuro de Internet. Ven a
+            conocer
+            a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel
+            que
+            tenemos para ti. Te esperamos!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="losoradores">
+    <h3>
+      <p class="fs-6 text-center">CONOCE A LOS </p>
+      <p class="fs-2 text-center">ORADORES</p>
+    </h3>
+
+    <div class="card-oradores">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/TRABAJO PRACTICO INTEGRADOR/img/steve.jpg" class="card-img-top " alt="..." id="oradores">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning" id="button2">JavaScript</button>
+              <button type="button" class="btn btn-primary" id="button2">React</button>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, eum dolorum
+                autem corporis provident porro tenetur omnis dolorem distinctio ullam doloribus. Exercitationem beatae
+                ea
+                eius facilis reiciendis voluptatum, maxime illum!</p>
+            </div>
+
+
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/TRABAJO PRACTICO INTEGRADOR/img/bill.jpg" class="card-img-top" alt="..." id="oradores">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning" id="button2">JavaScript</button>
+              <button type="button" class="btn btn-primary" id="button2">React</button>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, rem neque? Cum optio
+                error magni quo! Harum amet pariatur consequuntur ratione enim totam minima illum molestias ipsa magni?
+                Saepe, dolorum?</p>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/TRABAJO PRACTICO INTEGRADOR/img/ada.jpeg" class="card-img-top" alt="..." id="oradores">
+            <div class="card-body">
+              <button type="button" class="btn btn-secondary" id="button2">Negocios</button>
+              <button type="button" class="btn btn-danger" id="button2">Startups</button>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat facilis
+                accusantium quo excepturi aut exercitationem. Voluptatibus illo iste iure accusantium repudiandae!
+                Ratione, impedit assumenda officia recusandae et eos amet.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </section>
+
+    <div class="grid-container4" id="ellugarylafecha">
+      <div class="row g-0">
+        <div class="col">
+          <img src="/TRABAJO PRACTICO INTEGRADOR/img/honolulu.jpg" class="img-fluid rounded-start" alt="..."
+            id="honolulu">
+        </div>
+        <div class="col">
+          <div class="card-body3" id="cardhonolulu">
+            <h4 class="card-title3">Bs As - Octubre</h4>
+            <p class="card-text3">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
+              Estados Unidos.
+              Homolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+              Homolulu se refiere al área urbana en la costa sureste de la isla de Oshu, la ciudad y el condado de
+              Homolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600
+              km2 de superficie).</p>
+            <button type="button" class="btn btn-outline-light">Conocé más</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <section class="grid-container5" id="convierteteenorador">
+
+
+    <div class="conviertete">
+      <h3>
+        <p class="fs-6 text-center">CONVIERTETE EN</p>
+        <p class="fs-2 text-center">ORADOR</p>
+      </h3>
+      <p class="text-center">Anótate como orador para dar una <a href=""> "charla ignite"</a>. Cuéntanos de qué quieres
+        hablar!</p>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+        </div>
+        <div class="mb-3">
+
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Sobre qué quieres hablar?"></textarea>
+        </div>
+        <p>Recuerda incluir un título para tu charla</p>
+        <button type="submit" class="btn2 border-0">Enviar</button>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  </main>
+
+
+  <footer class="grid-container6">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup1">
+          <div class="footer">
+            <div class="navbar-nav text-center" id="">
+
+              <a class="nav-link colorenlace6" href="#">Preguntas Frecuentes</a>
+              <a class="nav-link colorenlace6" href="#">Contáctanos</a>
+              <a class="nav-link colorenlace6" href="#">Prensa</a>
+              <a class="nav-link colorenlace6" href="#">Conferencias</a>
+              <a class="nav-link colorenlace6" href="#">Términos y condiciones</a>
+              <a class="nav-link colorenlace6" href="#">Privacidad</a>
+              <a class="nav-link colorenlace6" href="#">Estudiantes</a>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
